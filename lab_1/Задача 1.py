@@ -3,7 +3,7 @@ str_upper_value = input("Введите верхнюю границу: ")
 if str_lower_value.isdigit() and str_upper_value.isdigit():
     lower_value = int(str_lower_value)
     upper_value = int(str_upper_value)
-    if lower_value >= upper_value or lower_value < 0 or upper_value < 0:
+    if lower_value >= upper_value:
         print("Нижняя граница должна быть меньше")
         exit()
     print(f"Простые числа на отрезке [{lower_value}, {upper_value}]: ")

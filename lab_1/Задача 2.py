@@ -1,5 +1,5 @@
 def is_vowel(char):
-    vowels = "АаУуЕеОоЭэЁёЯяИиЮюЫы"
+    vowels = "АаУуЕеОоЭэЁёЯяИиЮюЫыEeUuIiOoAa"
     return char in vowels
 
 
